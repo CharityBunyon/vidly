@@ -1,10 +1,11 @@
 import React from 'react';
+import Movies from '../components/MoviesList/MoviesList';
 import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <button className="btn btn-warning">Hey Girl!</button>
+    <div className="container">
+      <Movies />
     </div>
   );
 }
